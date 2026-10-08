@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ConfSecond Slide v009</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Karla:wght@400;700&display=swap">
+<style>
+/* Variant 009: layout "Stepped list", palette Ink, display Oswald, body Karla */
+:root{--bg:#f6f7f9;--fg:#14181f;--accent:#1d4ed8;--surface:#e8ebf1;--line:color-mix(in srgb,#14181f 22%,transparent);
+--display:'Oswald',Georgia,serif;--body:'Karla',system-ui,sans-serif;--mono:ui-monospace,Menlo,monospace}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1117;--fg:#e7eaf0;--accent:#7aa2ff;--surface:#1a1f2a;--line:color-mix(in srgb,#e7eaf0 22%,transparent);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1117;--fg:#e7eaf0;--accent:#7aa2ff;--surface:#1a1f2a;--line:color-mix(in srgb,#e7eaf0 22%,transparent);color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--body);padding-inline:16px;padding-block:2rem}
+main{margin-inline:auto}
+h1{font:800 clamp(1.8rem,6vw,3rem)/1.1 var(--display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+.sub{font:600 1.1rem var(--display);color:var(--accent);margin:.5rem 0 0;text-transform:uppercase;letter-spacing:.06em}
+.fact{margin:0;max-width:65ch;overflow-wrap:anywhere}
+.stat{margin:0;display:grid;gap:.15rem}
+.num{font:800 clamp(1.5rem,5.5vw,2.6rem)/1.1 var(--display);color:var(--accent);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.unit{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;opacity:.75}
+.meta{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin-top:2rem;padding-top:1rem;border-top:1px solid var(--line);font-size:.85rem}
+a{color:var(--accent);font-weight:600}a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.tag{opacity:.7}
+main{max-width:46rem}.panel{display:grid;gap:0;border-left:2px solid var(--accent);margin-left:.5rem}.panel>*{padding:0 0 1.5rem 1.5rem;position:relative}.panel>*::before{content:'';position:absolute;left:-.45rem;top:.4rem;width:.8rem;height:.8rem;border-radius:50%;background:var(--accent)}
+</style>
+</head><body><main>
+<section class="panel">
+<header class="title"><h1>SOME TEST DATA</h1><p class="sub">MORE TEST DATA</p></header>
+<p class="fact">The important fact is that a second is defined as the duration it takes for 9192631770 radiations of Cesium 133 to occur . This information is important</p>
+<p class="stat"><span class="num">9,192,631,770</span><span class="unit">Cs-133 radiation periods = 1 second</span></p>
+</section>
+<footer class="meta"><a href="../ConfSecond.pptx">Open ConfSecond.pptx</a><span class="tag">Variant 009 of 100 · Stepped list · Ink</span><a href="../index.html">All versions</a></footer>
+</main>
+</body></html>

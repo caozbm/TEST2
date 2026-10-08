@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ConfSecond Slide v024</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@700;800&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+/* Variant 024: layout "Top banner", palette Plum, display Bitter, body IBM Plex Sans */
+:root{--bg:#f8f4f8;--fg:#241626;--accent:#8a2b8f;--surface:#ecdfed;--line:color-mix(in srgb,#241626 22%,transparent);
+--display:'Bitter',Georgia,serif;--body:'IBM Plex Sans',system-ui,sans-serif;--mono:ui-monospace,Menlo,monospace}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#150d17;--fg:#efe3f0;--accent:#d58bd9;--surface:#241a27;--line:color-mix(in srgb,#efe3f0 22%,transparent);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#150d17;--fg:#efe3f0;--accent:#d58bd9;--surface:#241a27;--line:color-mix(in srgb,#efe3f0 22%,transparent);color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--body);padding-inline:16px;padding-block:2rem}
+main{margin-inline:auto}
+h1{font:800 clamp(1.8rem,6vw,3rem)/1.1 var(--display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+.sub{font:600 1.1rem var(--display);color:var(--accent);margin:.5rem 0 0;text-transform:uppercase;letter-spacing:.06em}
+.fact{margin:0;max-width:65ch;overflow-wrap:anywhere}
+.stat{margin:0;display:grid;gap:.15rem}
+.num{font:800 clamp(1.5rem,5.5vw,2.6rem)/1.1 var(--display);color:var(--accent);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.unit{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;opacity:.75}
+.meta{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin-top:2rem;padding-top:1rem;border-top:1px solid var(--line);font-size:.85rem}
+a{color:var(--accent);font-weight:600}a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.tag{opacity:.7}
+main{max-width:56rem}.title{background:var(--accent);color:var(--bg);padding:1.5rem;margin-bottom:1.5rem}.title h1,.title p{color:var(--bg)}.panel{display:block}
+</style>
+</head><body><main>
+<section class="panel">
+<header class="title"><h1>SOME TEST DATA</h1><p class="sub">MORE TEST DATA</p></header>
+<p class="fact">The important fact is that a second is defined as the duration it takes for 9192631770 radiations of Cesium 133 to occur . This information is important</p>
+<p class="stat"><span class="num">9,192,631,770</span><span class="unit">Cs-133 radiation periods = 1 second</span></p>
+</section>
+<footer class="meta"><a href="../ConfSecond.pptx">Open ConfSecond.pptx</a><span class="tag">Variant 024 of 100 · Top banner · Plum</span><a href="../index.html">All versions</a></footer>
+</main>
+</body></html>
